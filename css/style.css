@@ -142,5 +142,66 @@ h3{
     background-color: #8EA1E1;
 }
 
+footer{
+    background-color: #23272A;
+}
 
+.footer-container{
+    width: 80%;
+    margin: auto;
+}
 
+.footer-menu{
+    width: 68%;
+}
+
+.footer-social img{
+    width: 18px;
+    height: 12px;
+
+}
+
+.footer-social > h2{
+    color: #7289DA;
+}
+
+#language{
+    color: white;
+    padding-top: 20px;
+}
+#language::after{
+    content: '\25BE';
+}
+ul{
+    display: flex;
+}
+
+ul li{
+    color: #687cc3;
+}
+
+.ul-ann li{
+    color: white;
+    list-style: none;
+    
+}
+
+.footer-flex2{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-item{
+    padding-top: 50px;
+
+}
+
+.register-btn{
+    width: 70px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #687cc3 ;
+}
