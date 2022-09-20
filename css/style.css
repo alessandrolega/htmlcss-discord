@@ -48,7 +48,7 @@ a{
     text-align: center;
     color: white;
     padding: 40px;
-    padding-bottom: 80px;
+    padding-bottom: 150px;
 }
 
 h1{
@@ -80,7 +80,8 @@ h3{
     color: white;
 }
 
-.section1{
+.section2{
+    background-color: lightgray;
 
 }
 
@@ -92,14 +93,12 @@ h3{
 }
 
 .img-div{
-    width: 50%;
     margin-top: 150px;
-    padding-left: 50px;
+    
     
 }
 
 .text-div{
-    width: 40%;
     margin-top: 139px;
 }
 
