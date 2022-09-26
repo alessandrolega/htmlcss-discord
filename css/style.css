@@ -80,10 +80,18 @@ h3{
     color: white;
 }
 
+.section1{
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+
 .section2{
     background-color: lightgray;
-
+    padding-bottom: 100px;
+    padding-top: 100px;
 }
+
 
 .container-section1{
    width: 80%;
@@ -93,13 +101,17 @@ h3{
 }
 
 .img-div{
-    margin-top: 150px;
+    flex-basis: 60%;
     
     
 }
 
 .text-div{
-    margin-top: 139px;
+   flex-basis: 40%;
+}
+
+.img-div > img{
+    width: 100%;
 }
 
 .h2-section{
@@ -109,7 +121,8 @@ h3{
 
 .p-section{
     padding-top: 30px;
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: bold;
 }
 .section4{
     background-color: lightgray;
@@ -140,7 +153,9 @@ h3{
 
 .purple{
     background-color: #8EA1E1;
+    margin-bottom: 150px;
 }
+
 
 footer{
     background-color: #23272A;
@@ -204,4 +219,69 @@ ul li{
     border: none;
     border-radius: 20px;
     background-color: #687cc3 ;
+    color: white;
+}
+
+.f-space-between{
+    justify-content: space-between;
+}
+
+.place-talk > h4{
+    color: #7086d9;
+    font-size: 40px;
+}
+
+.lang-cont{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.lang-cont > img{
+    width: 8%;
+    vertical-align: middle;
+}
+
+.flex{
+    display: flex;
+}
+
+.lang-ita{
+    vertical-align: middle;
+    color: white;
+}
+
+.social-icons{
+    color: white;
+}
+
+.footer-lists{
+    flex-basis: 40%;
+}
+
+.place-talk{
+    flex-basis: 60%;
+}
+
+.footer-li, .footer-ul{
+    color: white;
+}
+
+.footer-li{
+    list-style: none;
+    padding-top: 20px;
+}
+.blue{
+    color: #7086d9;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fa-chevron-down{
+    color: white;
+}
+
+.breakline{
+    height: 2px;
+    background-color: #7086d9;
+    margin-top: 40px;
 }
